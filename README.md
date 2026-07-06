@@ -1,4 +1,4 @@
-# Ajosave
+# ojosave-contract
 
 > **Trustless rotating savings circles (Ajo/Esusu) on the Stellar blockchain.**  
 > The traditional West African savings group — now with smart contracts, no middleman, automatic payouts.
@@ -11,9 +11,9 @@
 
 ---
 
-## What is Ajosave?
+## What is ojosave-contract?
 
-Ajo (also called Esusu or Susu) is a traditional rotating savings group practiced across West Africa and the diaspora. A group of people each contribute a fixed amount every cycle, and one member takes the full pot each round until everyone has received their payout.
+Ojo (also called Esusu or Susu) is a traditional rotating savings group practiced across West Africa and the diaspora. A group of people each contribute a fixed amount every cycle, and one member takes the full pot each round until everyone has received their payout.
 
 Today this runs entirely on trust — no contracts, no guarantees, frequent fraud. **Ajosave puts it on-chain.**
 
@@ -97,7 +97,7 @@ scripts/
 
 ## Smart Contract
 
-The Ajo contract (`contracts/ajo/`) handles the full circle lifecycle:
+The Ojo contract (`contracts/ajo/`) handles the full circle lifecycle:
 
 | Function | Description |
 |----------|-------------|
@@ -139,7 +139,7 @@ STELLAR_NETWORK=testnet npm run contract:deploy
 
 #### Testnet Deployment
 
-The Ajo contract is deployed on **Stellar Testnet**:
+The Ojo contract is deployed on **Stellar Testnet**:
 
 | Field | Value |
 |-------|-------|
